@@ -98,11 +98,8 @@ class _HomeState extends State<Home> {
               width: 80,
               height: 80,
               color: Colors.white,
-              child: Hero(
-                tag: personagem.nome ?? '',
-                child: Image.asset(
-                  personagem.image,
-                ),
+              child: Image.asset(
+                personagem.image,
               ),
             ),
             SizedBox(
