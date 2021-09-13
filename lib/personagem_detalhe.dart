@@ -20,15 +20,7 @@ class _PersonagemDetailState extends State<PersonagemDetail> {
       body: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Column(
-          children: [
-            Hero(
-              tag: widget.personagem.nome ?? '',
-              child: Image.asset(
-                widget.personagem.image,
-                scale: 0.5,
-              ),
-            ),
-          ],
+          children: [],
         ),
       ),
     );
